@@ -1,0 +1,133 @@
+.body {
+    margin: 0;
+    padding: 0;
+}* {
+    box-sizing: border-box;
+}
+
+
+.container-fluid {
+    max-width: 2000px;
+    display: flex;
+    margin: auto;
+
+}
+.nav-item {
+    margin-left: 1px;
+    margin-top: 5px;
+
+}
+.nav-link {
+    display: flex;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: Poppins;
+    justify-content: center;
+}
+.search-box {
+    margin-left: 140px;
+    display: flex;
+
+}
+
+.fluid {
+
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Calibri;
+    font-size: 28px;
+    margin-left: 10px;
+}
+.fluid:hover {
+
+    color: rgb(2, 238, 255);
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Calibri;
+    font-size: 28px;
+}
+
+.item {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.item:hover 
+{
+    color: rgb(2, 238, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+
+.hr {
+    margin: 7px 10px;
+    height: 11px;
+}
+.nav_bar {
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.search-btn {
+    color: rgb(66, 66, 66);
+    margin: 5px ;
+}
+.search-txt {
+    border-radius: 10px;
+    color: rgb(63, 63, 63);
+    height: 20px;
+}
+.img {
+margin-left: 10px;
+margin-top: -16px;
+}
+.hamburger-box {
+    margin: auto;
+    margin-top: -10px; 
+    margin-left: 100px;
+}
+@media (max-width: 1500px) {
+    .container-fluid {
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px) {
+    .container-fluid{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px) {
+    .container-fluid{
+        max-width: none;
+    }
+}
+@media screen and (max-width: 640px) {
+    .nav-link {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+    }
+    .hr {
+        height: 1px;
+        width: 40PX;
+    }
+
+}
+@media screen and (max-wdth: 370px) {
+    
+}

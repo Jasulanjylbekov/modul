@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 47" width="40" height="47">
+	<title>logo</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #00aeff } 
+	</style>
+	<g id="logo">
+		<path id="logo icon" class="s0" d="m0 10l20-10l20 10l-20 10l-20-10zm0 2l20 11l20-10v24l-20 10l-20-10v-25z" />
+	</g>
+</svg>
